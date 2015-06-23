@@ -5,7 +5,11 @@
   "description": "A material Theme for Atom",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "material",
+    "google",
+    "candy",
+    "sublime"
   ],
   "repository": "https://github.com/DaanDD/material-syntax",
   "license": "MIT",
