@@ -106,6 +106,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .storage {
   color: @purple;
+
+  &.modifier {
+    color: @very-light-gray;
+  }
 }
 
 .constant {
@@ -244,7 +248,6 @@ atom-text-editor .search-results .marker.current-result .region,
   &.other.attribute-name {
     color: @cyan;
 
-    &.xml,
     &.class {
       color: @green;
     }
@@ -331,6 +334,10 @@ atom-text-editor .search-results .marker.current-result .region,
   -webkit-font-smoothing: auto;
   &.heading {
     color: @green;
+
+    .marker {
+      color: @cyan;
+    }
   }
 }
 
