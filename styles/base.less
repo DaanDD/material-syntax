@@ -81,6 +81,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.control {
     color: @red;
+
+    &.php {
+      color: @purple;
+    }
   }
 
   &.control.at-rule {
@@ -143,8 +147,12 @@ atom-text-editor .search-results .marker.current-result .region,
 .variable {
   color: @red;
 
-  &.interpolation {
-    color: darken(@red, 10%);
+  &.other {
+    color: @very-light-gray;
+
+    &.less {
+      color: @red;
+    }
   }
 
   &.parameter.function {
@@ -220,11 +228,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.function  {
-    color: @cyan;
-
-    &.any-method {
-      color: @blue;
-    }
+    color: @blue;
   }
 }
 
