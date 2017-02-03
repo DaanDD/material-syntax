@@ -1,7 +1,7 @@
 {
   "name": "material-syntax",
   "theme": "syntax",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Bringing Material Design to Atom",
   "keywords": [
     "syntax",
